@@ -23,15 +23,15 @@ Ye PowerShell script Azure Active Directory (Entra ID) aur Resource Manager (RBA
 ## Prerequisites
 - PowerShell 5.1+ (Windows/Linux/macOS)
 - Az PowerShell Module: `Install-Module Az -Scope CurrentUser`
-- Global Admin or Privileged Role Admin access (PIM activate kar lo if needed)
+- Global Admin or Privileged Role Admin access. 
 
 ## Installation
-1. Clone/Download ye repo: `git clone https://github.com/tumharusername/azure-iam-security-audit.git`
-2. Open PowerShell as Admin (if needed for module install).
+1. Clone/Download ye repo: `git clone https://github.com/nitiin205-ctrl//azure-iam-security-audit.git`
+2. Open PowerShell as Admin.
 
 ## Usage
 ```powershell
-# Login to Azure (Global Admin ya PIM role se)
+# Login to Azure 
 Connect-AzAccount
 
 # Run the script
